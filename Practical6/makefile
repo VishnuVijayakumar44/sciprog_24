@@ -1,7 +1,7 @@
 CC=gcc
 CCFLAGS = -O3
 LDFLAGS = -lm
-mmc : main.o mm.o
+mat : main.o matmult.o
 	$(CC) -o $@ $^ $(LDFLAGS)
 matmult.o: matmult.c
 	$(CC) -c $(CCFLAGS) $<
