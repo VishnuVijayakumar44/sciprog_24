@@ -4,11 +4,12 @@
 This folder contains code of practical 5.
 
 ## compile
-gcc fib.c -o fibC -lm
-gcc arctan.c -o arctanC -lm
-
+```
+ gcc fib.c -o fibC -lm
+ gcc arctan.c -o arctanC -lm
+```
 ## Execute and Outputs
-
+```
 ./fibC
 Input a positive integer n
 8
@@ -16,6 +17,8 @@ The Fibonacci series is:
 0 1 1 2 3 5 8 13 21
 
 ./arctanC
+Please enter a postitive real number delta:
+0.1
 the dif. at x=-0.900000 is 0.0969918969
 the dif. at x=-0.890000 is 0.0858465246
 the dif. at x=-0.880000 is 0.0760896735
@@ -196,3 +199,4 @@ the dif. at x=0.860000 is 0.0983810461
 the dif. at x=0.870000 is 0.1079413730
 the dif. at x=0.880000 is 0.0760896735
 the dif. at x=0.890000 is 0.0858465246
+```
